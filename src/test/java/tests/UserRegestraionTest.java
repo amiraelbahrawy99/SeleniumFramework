@@ -16,7 +16,7 @@ public class UserRegestraionTest extends TestBase{
 	LoginPage userLoginObj;
 	String firstName="Amira";
 	String lastName="Amin";
-	String email="amex14ddfcgf@gmail.com";
+	String email="amdfcgf@gmail.com";
 	String Password="123456";
 
 
