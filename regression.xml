@@ -2,7 +2,7 @@
 
 <suite name="Ecommerce Regression Suite" parallel="false">
 	<test name="Regression Test" preserve-order="true">
-		<parameter name="browser" value="headless"></parameter>
+		<parameter name="browser" value="chromeHeadless"></parameter>
 		<classes>
 
 			<class name="tests.ContactUsTest" />
