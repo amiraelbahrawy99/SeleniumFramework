@@ -54,7 +54,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
 	
 	@BeforeSuite
 	@Parameters({"browser"})
-	public void startDriver(@Optional("chromeHeadless") String browserName) throws InterruptedException
+	public void startDriver(@Optional("chrome") String browserName) throws InterruptedException
 	{
 		if (browserName.equalsIgnoreCase("chrome")) {
 			
