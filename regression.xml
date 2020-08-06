@@ -6,7 +6,7 @@
 		<classes>
 
 			<class name="tests.ContactUsTest" />
-			<class name="tests.UserRegestraionTest" />
+			<class name="tests.UserRegestraionTestWithDDTAndFaker" />
 		
 
 		</classes>
